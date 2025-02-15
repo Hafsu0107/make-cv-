@@ -44,3 +44,24 @@ ul li {
 .bold {
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+  .personal-details,
+  .skills,
+  .education,
+  .languages {
+    padding: 10px;
+  }
+  .skills ul,
+  .education ul {
+    list-style: none;
+    padding: 0;
+  }
+  .skills ul li,
+  .education ul li {
+    padding: 5px 0;
+  }
+}
